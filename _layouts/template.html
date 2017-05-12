@@ -10,9 +10,64 @@
   <link rel="stylesheet" href="/ComputerMusic/assets/css/style.css?v=96bf2326cd6fccfc13330e65e3c43228e41e56be">
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script type="text/javascript" src="/ComputerMusic/assets/js/test.js"></script>
+	<script type="text/javascript"> 
+	
+	
+	
 
+var user1 = prompt("You are walking down the NYC side walk and a man appraochs. He is dressed in a suit. He slides a cell phone into your hand as he brushes past you. He glancecs over his sholder as he walks briskly away. You notice a twinkle in his eye. Do you, THROW the phone back at him, OPEN the phone, or WAIT to do anything with the phone?");
+
+user1 = user1.toLowerCase()
+switch(user1){
+    case('open'):
+        var user2 = prompt("You open the phone to see a backgroud with a strange logo that looks vaguely familar. It is a large golden S in a circle. A message pops up that says 'You are being watched' Do you, PUT away the phone, CALL the police, MESSAGE the number that just texted you");
+        break;
+        
+    case('throw'):
+        var user2 = prompt("You throw the phone at him. He reachs and catches it in midair and swiftly pulls it under his coat, his moves are like a magician. He grins at you for an instant, as if to say 'I thought you would do that' before he turns around and briskly walks onward. Do you KEEP walking or CALL the police?");
+        break;
+        
+    default:
+        var user2 = prompt("You wait to do anything with the phone until you get home. When you do finally get home you realise you might have made a huge mistake. The phone could be tracked or could be a bomb! You quickly pull out the phone and unscrew the back. You used to be a cell phone salesman so you know what the inside should look like. Everything appers normal, but it is still possible to track its location. You notice it has a message. It reads 'We need your coorpoertation, you and your city are in danger.' Do you TAKE the message to the police, THROW the phone away, MESSAGE the texter back?");
+        break;
+    
+    }
+
+
+user2 = user2.toLowerCase()
+
+switch(user2){
+    case('call'):
+         var user3 = police();
+        break;
+    case('take'):
+         var user3 = police();
+        break;
+    case('throw'):
+        var user3 = prompt("You are not about to put yourself in danger. You go ouside to the nearest dumpster and do your best basketball shot to swoosh the phone into the trash. As you walk away the stanger's face flashes through your mind. He looked kind of familar...The next day you hear a knock at your door. Do you OPEN it or CALL the police");
+        break;
+        
+    case('message'):
+        var user3 = prompt( "You message the number back. You say, 'Who is this? I will go to the police!'You get an instant reply back that says 'The police are involved. You will be jailed. Go to 1329 Baker Street and knock on the door. Hurry.' Do you GO to the address or CALL the police anyways?");
+        break;
+
+    case('keep'):
+        var user3 = prompt( "As you walk away the stanger's face flashes through your mind. He looked kind of familar...The next day you hear a knock at your door. Do you OPEN it or CALL the police");
+        break;
+    case('put'):
+    	var user3 = prompt("You wait to do anything with the phone until you get home. When you do finally get home you realise you might have made a huge mistake. The phone could be tracked or could be a bomb! You quickly pull out the phone and unscrew the back. You used to be a cell phone salesman so you know what the inside should look like. Everything appers normal, but it is still possible to track its location. You notice it has a message. It reads 'We need your coorpoertation, you and your city are in danger.' Do you TAKE the message to the police, THROW the phone away, MESSAGE the texter back?")
+        break;
+    default:
+            var user3 = prompt("You wait to do anything with the phone until you get home. When you do finally get home you realise you might have made a huge mistake. The phone could be tracked or could be a bomb! You quickly pull out the phone and unscrew the back. You used to be a cell phone salesman so you know what the inside should look like. Everything appers normal, but it is still possible to track its location. You notice it has a message. It reads 'We need your coorpoertation, you and your city are in danger.' Do you TAKE the message to the police, THROW the phone away, MESSAGE the texter back?")
+            break;
+    }
+
+
+	
+	</script>
   <title>Welcome to PyTunes!</title>
   <center> <meta name="description" content="Computer Generated Music"></center>
+	<p> This is a test </p>
 
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
