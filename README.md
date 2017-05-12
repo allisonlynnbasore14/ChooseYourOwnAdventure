@@ -1,7 +1,3 @@
-### This is my ReadMe!!!
+### Choose Your Own Adventure Game
 
-:)
-
-!!! <3 
-!!! 
-
+This was a simple side project of creating an html/javascript game that led the user through an adventure of thier own choosing.
