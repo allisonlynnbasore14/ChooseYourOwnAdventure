@@ -1,6 +1,9 @@
 (function($) {
 $(document).ready(function(){
 
+  
+var user1 = prompt("You are walking down the NYC side walk and a man appraochs. He is dressed in a suit. He slides a cell phone into your hand as he brushes past you. He glancecs over his sholder as he walks briskly away. You notice a twinkle in his eye. Do you, THROW the phone back at him, OPEN the phone, or WAIT to do anything with the phone?");
+
   // putting lines by the pre blocks
   $("pre").each(function(){
     var pre = $(this).text().split("\n");
